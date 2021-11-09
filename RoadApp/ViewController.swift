@@ -8,10 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    
+    override func loadView() {
+        var view = CaptureView()
+        self.view = view
+        view.backgroundColor = .black
     }
 
 

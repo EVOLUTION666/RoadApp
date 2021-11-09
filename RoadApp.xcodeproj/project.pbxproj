@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5543BEE3273AD23E009F569B /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543BEE2273AD23E009F569B /* CaptureView.swift */; };
 		55EC6305273AC78700CBA34C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EC6304273AC78700CBA34C /* AppDelegate.swift */; };
 		55EC6307273AC78700CBA34C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EC6306273AC78700CBA34C /* SceneDelegate.swift */; };
 		55EC6309273AC78700CBA34C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EC6308273AC78700CBA34C /* ViewController.swift */; };
-		55EC630C273AC78700CBA34C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EC630A273AC78700CBA34C /* Main.storyboard */; };
 		55EC630E273AC78A00CBA34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55EC630D273AC78A00CBA34C /* Assets.xcassets */; };
 		55EC6311273AC78A00CBA34C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EC630F273AC78A00CBA34C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5543BEE2273AD23E009F569B /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
 		55EC6301273AC78700CBA34C /* RoadApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EC6304273AC78700CBA34C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55EC6306273AC78700CBA34C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		55EC6308273AC78700CBA34C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		55EC630B273AC78700CBA34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55EC630D273AC78A00CBA34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55EC6310273AC78A00CBA34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55EC6312273AC78A00CBA34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,10 +59,10 @@
 				55EC6304273AC78700CBA34C /* AppDelegate.swift */,
 				55EC6306273AC78700CBA34C /* SceneDelegate.swift */,
 				55EC6308273AC78700CBA34C /* ViewController.swift */,
-				55EC630A273AC78700CBA34C /* Main.storyboard */,
 				55EC630D273AC78A00CBA34C /* Assets.xcassets */,
 				55EC630F273AC78A00CBA34C /* LaunchScreen.storyboard */,
 				55EC6312273AC78A00CBA34C /* Info.plist */,
+				5543BEE2273AD23E009F569B /* CaptureView.swift */,
 			);
 			path = RoadApp;
 			sourceTree = "<group>";
@@ -126,7 +126,6 @@
 			files = (
 				55EC6311273AC78A00CBA34C /* LaunchScreen.storyboard in Resources */,
 				55EC630E273AC78A00CBA34C /* Assets.xcassets in Resources */,
-				55EC630C273AC78700CBA34C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,20 +139,13 @@
 				55EC6309273AC78700CBA34C /* ViewController.swift in Sources */,
 				55EC6305273AC78700CBA34C /* AppDelegate.swift in Sources */,
 				55EC6307273AC78700CBA34C /* SceneDelegate.swift in Sources */,
+				5543BEE3273AD23E009F569B /* CaptureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		55EC630A273AC78700CBA34C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55EC630B273AC78700CBA34C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		55EC630F273AC78A00CBA34C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
