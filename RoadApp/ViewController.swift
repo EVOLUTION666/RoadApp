@@ -9,15 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
-
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
     override func loadView() {
-        var view = CaptureView()
+        let view = CaptureView()
+        view.delegate = self
         self.view = view
         view.backgroundColor = .black
     }
@@ -25,3 +24,13 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: CaptureViewDelegate {
+    func didTapButton() {
+        let captureViewController = CaptureViewController()
+        captureViewController.modalPresentationStyle = .fullScreen
+        if let vc = UIStoryboard(name: "Storyboard", bundle: nil).instantiateViewController(withIdentifier: "vision") as? VisionObjectRecognitionViewController {
+            navigationController?.pushViewController(vc, animated: true)
+        }
+        
+    }
+}

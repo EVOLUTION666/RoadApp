@@ -2,10 +2,16 @@
 
 import UIKit
 
+protocol CaptureViewDelegate: AnyObject {
+    func didTapButton()
+}
+
 class CaptureView: UIView {
     
     var helloLabel: UILabel!
     var button: UIButton!
+    
+    weak var delegate: CaptureViewDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -38,6 +44,7 @@ class CaptureView: UIView {
         button.layer.borderWidth = 2
         button.clipsToBounds = true
         button.backgroundColor = .blue
+        button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
         self.addSubview(button)
     }
     
@@ -53,4 +60,9 @@ class CaptureView: UIView {
             button.widthAnchor.constraint(equalToConstant: 200)
         ])
     }
+    
+    @objc func buttonAction() {
+        delegate?.didTapButton()
+    }
+    
 }

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5543BEE3273AD23E009F569B /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543BEE2273AD23E009F569B /* CaptureView.swift */; };
+		5543BEE7273ADF04009F569B /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543BEE6273ADF04009F569B /* CaptureViewController.swift */; };
+		5543BEEA273ADF2D009F569B /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543BEE9273ADF2D009F569B /* VisionObjectRecognitionViewController.swift */; };
+		5543BEED273ADF6D009F569B /* ObjectDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5543BEEC273ADF6D009F569B /* ObjectDetector.mlmodel */; };
+		5543BEF0273AE6BC009F569B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5543BEEF273AE6BC009F569B /* Storyboard.storyboard */; };
 		55EC6305273AC78700CBA34C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EC6304273AC78700CBA34C /* AppDelegate.swift */; };
 		55EC6307273AC78700CBA34C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EC6306273AC78700CBA34C /* SceneDelegate.swift */; };
 		55EC6309273AC78700CBA34C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EC6308273AC78700CBA34C /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 
 /* Begin PBXFileReference section */
 		5543BEE2273AD23E009F569B /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		5543BEE6273ADF04009F569B /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		5543BEE9273ADF2D009F569B /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
+		5543BEEC273ADF6D009F569B /* ObjectDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ObjectDetector.mlmodel; path = ../../../../Downloads/RecognizingObjectsInLiveCapture/BreakfastFinder/ObjectDetector.mlmodel; sourceTree = "<group>"; };
+		5543BEEF273AE6BC009F569B /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		55EC6301273AC78700CBA34C /* RoadApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EC6304273AC78700CBA34C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55EC6306273AC78700CBA34C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 				55EC630F273AC78A00CBA34C /* LaunchScreen.storyboard */,
 				55EC6312273AC78A00CBA34C /* Info.plist */,
 				5543BEE2273AD23E009F569B /* CaptureView.swift */,
+				5543BEE6273ADF04009F569B /* CaptureViewController.swift */,
+				5543BEE9273ADF2D009F569B /* VisionObjectRecognitionViewController.swift */,
+				5543BEEC273ADF6D009F569B /* ObjectDetector.mlmodel */,
+				5543BEEF273AE6BC009F569B /* Storyboard.storyboard */,
 			);
 			path = RoadApp;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			files = (
 				55EC6311273AC78A00CBA34C /* LaunchScreen.storyboard in Resources */,
 				55EC630E273AC78A00CBA34C /* Assets.xcassets in Resources */,
+				5543BEF0273AE6BC009F569B /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,10 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5543BEED273ADF6D009F569B /* ObjectDetector.mlmodel in Sources */,
 				55EC6309273AC78700CBA34C /* ViewController.swift in Sources */,
 				55EC6305273AC78700CBA34C /* AppDelegate.swift in Sources */,
 				55EC6307273AC78700CBA34C /* SceneDelegate.swift in Sources */,
+				5543BEEA273ADF2D009F569B /* VisionObjectRecognitionViewController.swift in Sources */,
 				5543BEE3273AD23E009F569B /* CaptureView.swift in Sources */,
+				5543BEE7273ADF04009F569B /* CaptureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
